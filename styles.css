@@ -1,0 +1,219 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+body {
+  background-color: #fc7575;
+}
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1296px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 90px;
+  background-color: aqua;
+  display: flex;
+}
+.borders {
+  border-right: 1px solid red;
+}
+
+.header-text {
+}
+
+.logo {
+  width: 260px;
+  border-left: 2px solid red;
+}
+.tel {
+  width: 185px;
+}
+.address {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.our-saloons {
+  width: 200px;
+}
+.our-saloons__text {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 15px;
+}
+.blind {
+  width: 330px;
+}
+.blind__button {
+  background-color: #00868a;
+  height: 40px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  border: none;
+  cursor: pointer;
+}
+.blind__text {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.blind__img {
+  margin-right: 10px;
+}
+.social-media {
+  width: 320px;
+  display: flex;
+}
+.social-media__img {
+  width: 80px;
+}
+
+.main {
+  background-color: #4fbfa5;
+  height: 700px;
+}
+
+.nav-text {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.navigation {
+  height: 87px;
+  width: 1086px;
+  padding: 0 71px 0 60px;
+}
+.navigation__list {
+  width: 954px;
+  height: 87px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-block__button {
+  width: 195px;
+  padding: 0 10px 0 10px;
+}
+.top-block__button__button {
+  width: 175px;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.cosmetology {
+  display: flex;
+  justify-content: space-between;
+}
+.cosmetology__wrapper {
+  width: 490px;
+  padding: 132px 60px 60px 0;
+}
+
+.cosmetology__header {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 20px;
+}
+.cosmetology__text {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  width: 420px;
+  margin-bottom: 40px;
+}
+.cosmetology__button {
+  width: 163px;
+  height: 50px;
+  background-color: #00868a;
+  cursor: pointer;
+  border: none;
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.cosmetology__arrows {
+  height: 74px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.services {
+  display: flex;
+}
+.services-text {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.services__procedures {
+  width: 648px;
+  height: 80px;
+  background-color: #00868a;
+}
+
+.services__education {
+  width: 324px;
+  height: 80px;
+  background-color: #4fbfa5;
+}
+
+.services__vip {
+  width: 324px;
+  height: 80px;
+  background-color: #00868a;
+}
