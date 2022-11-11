@@ -191,6 +191,7 @@ a {
 .services {
   display: flex;
 }
+
 .services-text {
   font-family: "Gilroy-Regular";
   font-style: normal;
