@@ -1,10 +1,7 @@
 @import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 
-body {
-  background-color: #fc7575;
-}
-a:active, /* активная/посещенная ссылка */
-a:hover,  /* при наведении */
+a:active,
+a:hover,
 a {
   text-decoration: none;
 }
@@ -22,24 +19,42 @@ a {
 
 .header {
   height: 90px;
-  background-color: aqua;
   display: flex;
 }
 .borders {
-  border-right: 1px solid red;
+  border-right: 1px solid rgba(196, 196, 196, 0.3);
 }
 
-.header-text {
+.relative {
+  position: relative;
+}
+.absolute {
+  background-color: #4fbfa5;
+  position: absolute;
+  height: 700px;
+  width: 3000px;
+  left: -700px;
+  z-index: -1;
+}
+.absolute__wrapper {
+  background-color: #00868a;
+  position: absolute;
+  height: 350px;
+  width: 3000px;
+  left: -700px;
+  top: -80px;
+  z-index: -1;
+  opacity: 0.1;
 }
 
 .logo {
   width: 260px;
-  border-left: 2px solid red;
+  border-left: 1px solid rgba(196, 196, 196, 0.3);
 }
 .tel {
   width: 185px;
 }
-.address {
+.address__number {
   font-family: "Gilroy-Bold";
   font-size: 16px;
   font-weight: bold;
@@ -92,8 +107,7 @@ a {
 }
 
 .main {
-  background-color: #4fbfa5;
-  height: 700px;
+  margin-bottom: 100px;
 }
 
 .nav-text {
@@ -190,6 +204,7 @@ a {
 
 .services {
   display: flex;
+  justify-content: space-between;
 }
 
 .services-text {
@@ -218,4 +233,257 @@ a {
   width: 324px;
   height: 80px;
   background-color: #00868a;
+}
+
+.news-and-recommendation {
+  display: flex;
+}
+.news {
+  min-width: 526px;
+  background-color: #4fbfa5;
+}
+.news-wrapper__button {
+  font-family: "Gilroy-Regular";
+  background-color: #00868a;
+  width: 101px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+.news-wrapper {
+  padding: 35px 0 30px 40px;
+}
+.list-of-news-text {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.list-of-news__opinion {
+  padding: 35px 40px 35px 40px;
+  background-color: #00868a;
+}
+.list-of-news__standards {
+  padding: 35px 40px 35px 40px;
+}
+.list-of-news__personal {
+  padding: 35px 40px 35px 40px;
+}
+.recommendation-wrapper {
+  background-color: antiquewhite;
+  padding: 35px 60px 0 60px;
+}
+.recommendation_title {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.recommendations {
+  padding-left: 20px;
+}
+.recommendation_list {
+  margin-bottom: 14px;
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+.news-and-recommendation {
+  margin-bottom: 100px;
+}
+
+.special-offers-wrapper {
+  padding-top: 80px;
+}
+
+.special-offers {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #00868a;
+  margin-bottom: 60px;
+}
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+.offer {
+  width: 306px;
+  height: 343px;
+  position: relative;
+}
+.offer__figcaption {
+  background-color: #00868a;
+  padding: 25px 30px 25px 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  font-family: "Gilroy-Regular";
+  color: #ffffff;
+  display: flex;
+  margin-top: -3px;
+}
+.offer__text {
+  margin-right: 15px;
+}
+.offer_cosmetology {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 148px;
+  height: 40px;
+  background-color: #4fbfa5;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  font-family: "Gilroy-Regular";
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.services {
+  display: flex;
+}
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  width: 923px;
+  margin-bottom: 14px;
+}
+.services__second {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 51px;
+}
+.service {
+  width: 224px;
+}
+
+.service__header {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.service__list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Gilroy-Regular";
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.address__title,
+.address__tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.address__telephone,
+.address__text {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.address_first,
+.address__second,
+.address__third {
+  margin-bottom: 30px;
+}
+.address__text {
+  margin-bottom: 15px;
+}
+.address__button {
+  background-color: #00868a;
+  border: none;
+  width: 164px;
+  height: 45px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Gilroy-Regular";
+}
+.services__wrapper {
+  max-width: 850px;
+}
+.address {
+  min-width: 306px;
+  margin-top: 11px;
+}
+
+.footer__navigation {
+  background-color: white;
+}
+.law__left {
+  width: 300px;
+}
+.law__right {
+  text-decoration-line: underline;
+}
+.law-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+  font-family: "Gilroy-Regular";
+}
+.law-wrapper {
+  padding: 20px 71px 16px 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 549px;
+  align-items: center;
+}
+.footer__navigation {
+  height: 90px;
+  display: flex;
+  border-left: 1px solid rgba(196, 196, 196, 0.3);
+  border-top: 1px solid rgba(196, 196, 196, 0.3);
 }

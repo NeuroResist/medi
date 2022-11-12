@@ -17,7 +17,7 @@
         <img src="./img/logo.svg" alt="logo" />
       </div>
       <div class="tel center borders">
-        <address class="address">+7 (123) 456 78 90</address>
+        <address class="address__number">+7 (123) 456 78 90</address>
       </div>
       <div class="our-saloons center borders">
         <span class="our-saloons__text">Наши салоны</span>
@@ -46,37 +46,40 @@
     </header>
 
     <main class="container main">
-      <div class="top-block">
-        <nav class="navigation">
-          <ul class="navigation__list center">
-            <li><a class="nav-text" href="#">Косметология</a></li>
-            <li><a class="nav-text" href="#">Пластическая хирургия</a></li>
-            <li><a class="nav-text" href="#">Стоматология</a></li>
-            <li><a class="nav-text" href="#">Лазерная медицина</a></li>
-            <li><a class="nav-text" href="#">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="top-block__button">
-          <button class="top-block__button__button">Запись на прием</button>
+      <div class="relative">
+        <div class="absolute"></div>
+        <div class="top-block">
+          <nav class="navigation">
+            <ul class="navigation__list center">
+              <li><a class="nav-text" href="#">Косметология</a></li>
+              <li><a class="nav-text" href="#">Пластическая хирургия</a></li>
+              <li><a class="nav-text" href="#">Стоматология</a></li>
+              <li><a class="nav-text" href="#">Лазерная медицина</a></li>
+              <li><a class="nav-text" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="top-block__button">
+            <button class="top-block__button__button">Запись на прием</button>
+          </div>
         </div>
-      </div>
-      <div class="cosmetology">
-        <div class="cosmetology__wrapper">
-          <section>
-            <h2 class="cosmetology__header">Косметология</h2>
-            <p class="cosmetology__text">
-              Современный мир диктует новые каноны жизни: ухоженное лицо и тело,
-              стройная, подтянутая фигура — сегодня это неотъемлемые черты
-              привлекательной внешности, характеризующие человека благополучного
-              и успешного.
-            </p>
-            <button class="cosmetology__button">ПОДРОБНЕЕ</button>
-            <div class="cosmetology__arrows">
-              <img src="./img/arrows.svg" alt="arrows" />
-            </div>
-          </section>
+        <div class="cosmetology">
+          <div class="cosmetology__wrapper">
+            <section>
+              <h2 class="cosmetology__header">Косметология</h2>
+              <p class="cosmetology__text">
+                Современный мир диктует новые каноны жизни: ухоженное лицо и
+                тело, стройная, подтянутая фигура — сегодня это неотъемлемые
+                черты привлекательной внешности, характеризующие человека
+                благополучного и успешного.
+              </p>
+              <button class="cosmetology__button">ПОДРОБНЕЕ</button>
+              <div class="cosmetology__arrows">
+                <img src="./img/arrows.svg" alt="arrows" />
+              </div>
+            </section>
+          </div>
+          <img src="./img/girl.svg" alt="girl" />
         </div>
-        <img src="./img/girl.svg" alt="girl" />
       </div>
       <div class="services">
         <div class="services__procedures services-text center">
@@ -87,6 +90,215 @@
         </div>
         <div class="services__vip services-text center">VIP клиентам</div>
       </div>
+
+      <div class="news-and-recommendation">
+        <div class="news">
+          <div class="news-wrapper">
+            <button class="news-wrapper__button">Новости</button>
+          </div>
+          <ul class="list-of-news">
+            <li class="list-of-news__opinion list-of-news-text">
+              Почему рекомендуется посещать профессионального косметолога.
+              Мнение специалистов центра
+            </li>
+            <li class="list-of-news__standards list-of-news-text">
+              Стандартизация деятельности клиник в соответствии с ISO 9001:2015.
+            </li>
+            <li class="list-of-news__personal list-of-news-text">
+              Индивидуальный подход к каждому пациенту и подбор оптимальных
+              косметологических методик.
+            </li>
+          </ul>
+        </div>
+        <div class="recommendation-wrapper">
+          <section class="recommendation">
+            <h2 class="recommendation_title">
+              Почему рекомендуется посещать профессионального косметолога.
+              Мнение специалистов центра
+            </h2>
+            <ul class="recommendations">
+              <li class="recommendation_list">
+                Процедуры аппаратной косметологии на оборудовании экспертного
+                класса от ведущих мировых производителей могут проводиться в
+                любом возрасте и решать широкий спектр проблем: возрастные
+                изменения, покраснения, акне и купероз, потеря тонуса и
+                упругости кожи, отечность, целлюлит и т. п.
+              </li>
+              <li class="recommendation_list">
+                С помощью инъекционных методик мы можем разгладить морщины,
+                провести объёмное моделирование, увлажнить кожу, ввести активные
+                вещества в поверхностные и средние слои кожи, запустить процессы
+                омоложения.
+              </li>
+              <li class="recommendation_list">
+                Лазерное и фотоомоложение помогут запустить процесс синтеза
+                собственного коллагена, улучшить светооптические свойства кожи,
+                а также получить максимальный эффект подтяжки лица без уколов и
+                длительного восстановительного периода.
+              </li>
+              <li class="recommendation_list">
+                Курс процедур лазерной эпиляции поможет навсегда избавиться от
+                проблемы<br />
+                нежелательных волос.
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <section class="special-offers-wrapper">
+        <div class="relative">
+          <div class="absolute__wrapper"></div>
+          <h2 class="special-offers">Актуальные спецпредложения</h2>
+          <div class="offers">
+            <figure class="offer">
+              <button class="offer_cosmetology">Косметология</button>
+              <img class="offer__img" src="./img/netbook.svg" alt="netbook" />
+              <figcaption class="offer__figcaption">
+                <span class="offer__text">Лазерное и фотоомоложение</span>
+                <img src="./img/arrow-right.svg" alt="arrow-right" />
+              </figcaption>
+            </figure>
+            <figure class="offer">
+              <button class="offer_cosmetology">Косметология</button>
+              <img class="offer__img" src="./img/hookah.svg" alt="hookah" />
+              <figcaption class="offer__figcaption">
+                <span class="offer__text">Лазерное и фотоомоложение</span>
+                <img src="./img/arrow-right.svg" alt="arrow-right" />
+              </figcaption>
+            </figure>
+            <figure class="offer">
+              <button class="offer_cosmetology">Косметология</button>
+              <img class="offer__img" src="./img/glasses.svg" alt="glasses" />
+              <figcaption class="offer__figcaption">
+                <span class="offer__text">Лазерное и фотоомоложение</span>
+                <img src="./img/arrow-right.svg" alt="arrow-right" />
+              </figcaption>
+            </figure>
+            <figure class="offer">
+              <button class="offer_cosmetology">Косметология</button>
+              <img class="offer__img" src="./img/chinese.svg" alt="chinese" />
+              <figcaption class="offer__figcaption">
+                <span class="offer__text">Лазерное и фотоомоложение</span>
+                <img src="./img/arrow-right.svg" alt="arrow-right" />
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="container">
+      <div>
+        <div class="services__second">
+          <div class="services__wrapper">
+            <div class="first-row">
+              <section class="service">
+                <h4 class="service__header">Услуги</h4>
+                <ul class="service__wrapper">
+                  <li class="service__list">Косметология</li>
+                  <li class="service__list">Пластическая хирургия</li>
+                  <li class="service__list">Стоматология</li>
+                  <li class="service__list">Лазерная медицина</li>
+                </ul>
+              </section>
+              <section class="service">
+                <h4 class="service__header">Услуги</h4>
+                <ul class="service__wrapper">
+                  <li class="service__list">Косметология</li>
+                  <li class="service__list">Пластическая хирургия</li>
+                  <li class="service__list">Стоматология</li>
+                  <li class="service__list">Лазерная медицина</li>
+                </ul>
+              </section>
+              <section class="service">
+                <h4 class="service__header">Услуги</h4>
+                <ul class="service__wrapper">
+                  <li class="service__list">Косметология</li>
+                  <li class="service__list">Пластическая хирургия</li>
+                  <li class="service__list">Стоматология</li>
+                  <li class="service__list">Лазерная медицина</li>
+                </ul>
+              </section>
+            </div>
+            <div class="second-row">
+              <section class="service">
+                <h4 class="service__header">Услуги</h4>
+                <ul class="service__wrapper">
+                  <li class="service__list">Косметология</li>
+                  <li class="service__list">Пластическая хирургия</li>
+                  <li class="service__list">Стоматология</li>
+                  <li class="service__list">Лазерная медицина</li>
+                </ul>
+              </section>
+              <section class="service">
+                <h4 class="service__header">Услуги</h4>
+                <ul class="service__wrapper">
+                  <li class="service__list">Косметология</li>
+                  <li class="service__list">Пластическая хирургия</li>
+                  <li class="service__list">Стоматология</li>
+                  <li class="service__list">Лазерная медицина</li>
+                </ul>
+              </section>
+              <section class="service">
+                <h4 class="service__header">Услуги</h4>
+                <ul class="service__wrapper">
+                  <li class="service__list">Косметология</li>
+                  <li class="service__list">Пластическая хирургия</li>
+                  <li class="service__list">Стоматология</li>
+                  <li class="service__list">Лазерная медицина</li>
+                </ul>
+              </section>
+            </div>
+          </div>
+          <address class="address">
+            <section class="address_first">
+              <h6 class="address__tel">ТЕЛЕФОН</h6>
+              <p class="address__telephone">+7 (812) 123-45-67</p>
+            </section>
+            <section class="address__second">
+              <h6 class="address__title">АДРЕС</h6>
+              <p class="address__text">Невский пр. 140, пом. 10</p>
+              <button class="address__button">как проехать?</button>
+            </section>
+            <section class="address__third">
+              <h6 class="address__title">АДРЕС</h6>
+              <p class="address__text">Большой пр. 12</p>
+              <button class="address__button">как проехать?</button>
+            </section>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer__navigation">
+        <div class="borders law-wrapper">
+          <p class="law__left law-text">
+            (c) 2021. Центр космелогии. Все права защищены. Наши сертификаты на
+            осуществление деятельности. Патенты на использование технологий.
+          </p>
+          <a class="law__right law-text">Политика конфиденциальности</a>
+        </div>
+        <div class="blind borders center">
+          <button class="blind__button">
+            <img class="blind__img" src="./img/eye.svg" alt="eye" />
+            <span class="blind__text">ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ</span>
+          </button>
+        </div>
+        <ul class="social-media">
+          <li class="borders center social-media__img">
+            <a href="#"><img src="./img/vk.svg" alt="vk" /></a>
+          </li>
+          <li class="borders center social-media__img">
+            <a href="#"><img src="./img/youtube.svg" alt="youtube" /></a>
+          </li>
+          <li class="borders center social-media__img">
+            <a href="#"><img src="./img/facebook.svg" alt="facebook" /></a>
+          </li>
+          <li class="borders center social-media__img">
+            <a href="#"><img src="./img/instagram.svg" alt="instagram" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
